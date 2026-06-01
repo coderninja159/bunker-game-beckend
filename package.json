@@ -1,0 +1,22 @@
+{
+  "name": "bunker-backend",
+  "version": "1.0.0",
+  "description": "Bunker Multiplayer Game - Real-time Core Game Engine Backend",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.0.0",
+    "@types/socket.io": "^3.0.1",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}
